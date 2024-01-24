@@ -43,6 +43,14 @@
 			]
 		},
 		{
+			"name": "myjs",
+			"description": "Build your js",
+			"configurePreset": "default",
+			"targets": [
+				"myjs"
+			]
+		},
+		{
 			"name": "run-tests",
 			"configurePreset": "default",
 			"targets": [

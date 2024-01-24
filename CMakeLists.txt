@@ -23,6 +23,9 @@ add_subdirectory(libs)
 add_subdirectory(qjsc EXCLUDE_FROM_ALL)
 add_subdirectory(qjs EXCLUDE_FROM_ALL)
 
+# add myjs compile
+add_subdirectory(myjs EXCLUDE_FROM_ALL)
+
 add_subdirectory(tests EXCLUDE_FROM_ALL)
 add_subdirectory(examples EXCLUDE_FROM_ALL)
 
