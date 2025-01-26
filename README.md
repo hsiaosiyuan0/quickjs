@@ -309,6 +309,9 @@ cmake --build --preset=run-tests
 
 # Link your own JS
 cmake --build --preset=myjs
+
+# Link your own JS with libuv
+cmake --build --preset=my_uv_js
 ```
 
 ### Debug

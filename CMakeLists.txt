@@ -26,6 +26,9 @@ add_subdirectory(qjs EXCLUDE_FROM_ALL)
 # add myjs compile
 add_subdirectory(myjs EXCLUDE_FROM_ALL)
 
+# add myjs with uv compile
+add_subdirectory(my_uv_js EXCLUDE_FROM_ALL)
+
 add_subdirectory(tests EXCLUDE_FROM_ALL)
 add_subdirectory(examples EXCLUDE_FROM_ALL)
 
