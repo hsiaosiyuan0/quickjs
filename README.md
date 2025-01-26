@@ -311,10 +311,13 @@ cmake --build --preset=run-tests
 cmake --build --preset=myjs
 
 # Link your own JS with libuv
+## install cmake | ninja | libuv
 cmake --build --preset=my_uv_js
 ```
 
 ### Debug
+
+install clion
 
 ![Use Clion](./imgs/clion.png)
 
