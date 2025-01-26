@@ -43,6 +43,22 @@
 			]
 		},
 		{
+			"name": "myjs",
+			"description": "Build your js",
+			"configurePreset": "default",
+			"targets": [
+				"myjs"
+			]
+		},
+		{
+			"name": "my_uv_js",
+			"description": "Build your js with libuv",
+			"configurePreset": "default",
+			"targets": [
+				"my_uv_js"
+			]
+		},
+		{
 			"name": "run-tests",
 			"configurePreset": "default",
 			"targets": [
